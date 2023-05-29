@@ -1,3 +1,5 @@
+# example
+
 if __name__ == '__main__':
 	if __package__ is None:
 		import sys
@@ -8,7 +10,7 @@ if __name__ == '__main__':
 	else:
 		from . import Utils, Creator
 
-Utils.setApiKey("w2ATTEfKd0+KCB6BTgsid+9gF9i15dw0F+tU4WcFzZMcS2zL")
+Utils.setApiKey("w2ATTEfKd0+KCB6BTgsid+9gF9i15dw0F+tU4WcFzZMcS2zL") # change to ur key
 
 Asset = Creator.Asset("C:/Users/배려/Downloads/studio.png", "Decal")
 Creator = Creator.Creator("user", 361208413)
